@@ -3,11 +3,12 @@
 	"description": "Greenpeace P4 test-pluto",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-master-theme": "dev-planet-6034-fix",
+		"greenpeace/planet4-master-theme": "dev-master",
 		"greenpeace/planet4-plugin-gutenberg-blocks": "dev-master"
 	},
 	"data_from": "international",
 	"scripts": {
 		"site:custom": []
-	}
+	},
+	"repositories": []
 }
