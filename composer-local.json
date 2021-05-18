@@ -14,6 +14,20 @@
 		{
 			"type": "package",
 			"package": {
+				"name": "greenpeace/planet4-plugin-gutenberg-blocks",
+				"type": "wordpress-plugin",
+				"autoload": null,
+				"extra": null,
+				"version": 7,
+				"dist": {
+					"type": "zip",
+					"url": "https://storage.googleapis.com/planet4-packages/planet4-plugin-gutenberg-blocks/ef09d2f6690a13d7f3692edfb265807a66eb103a.zip"
+				}
+			}
+		},
+		{
+			"type": "package",
+			"package": {
 				"name": "greenpeace/planet4-master-theme",
 				"type": "wordpress-theme",
 				"autoload": {
@@ -31,21 +45,7 @@
 				"version": 7,
 				"dist": {
 					"type": "zip",
-					"url": "https://storage.googleapis.com/planet4-packages/planet4-master-theme/ee8de4f34354b7b115d06e0a7d6b7042cd54a5d1.zip"
-				}
-			}
-		},
-		{
-			"type": "package",
-			"package": {
-				"name": "greenpeace/planet4-plugin-gutenberg-blocks",
-				"type": "wordpress-plugin",
-				"autoload": null,
-				"extra": null,
-				"version": 7,
-				"dist": {
-					"type": "zip",
-					"url": "https://storage.googleapis.com/planet4-packages/planet4-plugin-gutenberg-blocks/ef09d2f6690a13d7f3692edfb265807a66eb103a.zip"
+					"url": "https://storage.googleapis.com/planet4-packages/planet4-master-theme/c614af707724a1bb0e5bcca567969241ea9dff13.zip"
 				}
 			}
 		}
