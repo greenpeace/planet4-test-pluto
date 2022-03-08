@@ -1,29 +1,14 @@
 {
-	"name": "greenpeace/planet4-test-pluto",
-	"description": "Greenpeace P4 test-pluto",
-	"license": "MIT",
-	"require": {
-		"greenpeace/planet4-master-theme": "dev-master",
-		"greenpeace/planet4-plugin-gutenberg-blocks": "7"
-	},
-	"data_from": "international",
-	"scripts": {
-		"site:custom": []
-	},
-	"repositories": [
-		{
-			"type": "package",
-			"package": {
-				"name": "greenpeace/planet4-plugin-gutenberg-blocks",
-				"type": "wordpress-plugin",
-				"autoload": null,
-				"extra": null,
-				"version": 7,
-				"dist": {
-					"type": "zip",
-					"url": "https://storage.googleapis.com/planet4-packages/planet4-plugin-gutenberg-blocks/1f32dec60c507fe76bad504ca275c61455c23e71.zip"
-				}
-			}
-		}
-	]
+  "name": "greenpeace/planet4-test-pluto",
+  "description": "Greenpeace P4 test-pluto",
+  "license": "MIT",
+  "require": {
+    "greenpeace/planet4-master-theme": "dev-master",
+    "greenpeace/planet4-plugin-gutenberg-blocks": "dev-master",
+    "plugins/gravityforms": "*"
+  },
+  "data_from": "international",
+  "scripts": {
+    "site:custom": []
+  }
 }
