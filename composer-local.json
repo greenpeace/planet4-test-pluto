@@ -3,26 +3,10 @@
 	"description": "Greenpeace P4 test-pluto",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-master-theme": "dev-main",
-		"greenpeace/planet4-plugin-gutenberg-blocks": "7"
+		"greenpeace/planet4-master-theme": "dev-PLANET-6918_style-default-actions-listing-page",
+		"greenpeace/planet4-plugin-gutenberg-blocks": "dev-main"
 	},
 	"scripts": {
 		"site:custom": []
-	},
-	"repositories": [
-		{
-			"type": "package",
-			"package": {
-				"name": "greenpeace/planet4-plugin-gutenberg-blocks",
-				"type": "wordpress-plugin",
-				"autoload": null,
-				"extra": null,
-				"version": 7,
-				"dist": {
-					"type": "zip",
-					"url": "https://storage.googleapis.com/planet4-packages/planet4-plugin-gutenberg-blocks/4c0edb6814e5816d0dcd269de4f25f4d46385092.zip"
-				}
-			}
-		}
-	]
+	}
 }
