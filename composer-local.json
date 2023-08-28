@@ -3,7 +3,7 @@
 	"description": "Greenpeace P4 test-pluto",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-master-theme": "dev-convert-navbar-variables-to-css-variables",
+		"greenpeace/planet4-master-theme": "dev-PLANET-6927_fix-page-header-spacing-issue-on-small-screens",
 		"greenpeace/planet4-plugin-gutenberg-blocks": "7"
 	},
 	"scripts": {
