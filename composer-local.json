@@ -3,6 +3,8 @@
 	"description": "Greenpeace P4 test-pluto",
 	"license": "MIT",
 	"require": {
+    "greenpeace/planet4-child-theme-netherlands": "dev-main",
+    "greenpeace/planet4-gpnl-plugin-gutenberg-blocks": "dev-develop",
 		"greenpeace/planet4-master-theme": "dev-main"
 	},
   "scripts": {
