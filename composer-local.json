@@ -5,7 +5,8 @@
 	"require": {
     "greenpeace/planet4-child-theme-netherlands": "dev-main",
     "greenpeace/planet4-gpnl-plugin-gutenberg-blocks": "dev-develop",
-		"greenpeace/planet4-master-theme": "dev-main"
+		"greenpeace/planet4-master-theme": "dev-main",
+    "wpackagist-plugin/wordpress-seo": "23.9.*"
 	},
   "scripts": {
     "install:plugin-cs-core":"wp plugin install --debug --activate https://update-v1.campaignsuite.nl/core/campaignsuite-core-1.7.21.zip",
