@@ -4,6 +4,26 @@
 	"license": "MIT",
 	"require": {
 		"greenpeace/planet4-child-theme-netherlands": "dev-main",
-		"greenpeace/planet4-master-theme": "dev-main"
-	}
+		"greenpeace/planet4-master-theme": "7"
+	},
+	"repositories": [
+		{
+			"type": "package",
+			"package": {
+				"name": "greenpeace/planet4-master-theme",
+				"type": "wordpress-theme",
+				"autoload": {
+					"psr-4": {
+						"P4\\MasterTheme\\": "src/"
+					}
+				},
+				"extra": null,
+				"version": 7,
+				"dist": {
+					"type": "zip",
+					"url": "https://storage.googleapis.com/planet4-packages/planet4-master-theme/c990a5e91d900fc61eb2253bd25bc41a229750da.zip"
+				}
+			}
+		}
+	]
 }
